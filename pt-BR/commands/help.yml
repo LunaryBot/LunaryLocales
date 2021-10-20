@@ -1,6 +1,7 @@
 help: 
   name: help
   description: Meu comando de ajuda.
+  category: Luny
 texts:
   title: Lunary ajuda
   description: "Olá {author}, eu sou a Lunar, sou um bot com um grande sonho,\nMeu foco principal é manter seu servidor organizado, ajudando na moderação e administração. Este é meu painel de ajuda, aqui você poderá descobrir no que eu posso ajudar a você e o servidor."

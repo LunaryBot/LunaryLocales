@@ -1,6 +1,16 @@
 help:
   name: ban
   description: Bane um usuário do servidor.
+  category: Moderação
+  examples:
+    - title: Pune um usuário usando a menção.
+      usage: "by-user user:{@user}"
+    - title: Pune um usuário usando o id.
+      usage: "by-user-id user-id:{userID}"
+    - title: Pune um usuário usando com um motivo.
+      usage: "by-user user:{@user} reason:{reason}"
+    - title: Pune um usuário sem notificar via dm.
+      usage: "by-user user:{@user} notify-dm:{notify-dm}"
 texts:
   mandatoryReason: É preciso informar um motivo para o banimento. `[Opção de motivo obrigatório ativa]`
   veryBigReason: O motivo deve conter no máximo `400` caracteres.

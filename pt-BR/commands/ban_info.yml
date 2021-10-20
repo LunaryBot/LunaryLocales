@@ -1,6 +1,12 @@
 help:
   name: ban info
   description: Mostra as informações do banimento de um usuário banido no servidor.
+  category: Moderação
+  examples:
+    - title: Veja as informações de um banimento pelo id do usuário.
+      usage: "user:{user-id}"
+    - title: Veja as informações de um banimento pela tag do usuário.
+      usage: "user:{user-tag}"
 texts:
   userNotBanned: Não encontrei nenhum usuário referente a `{user}` baniddo no servidor.
   embed:
