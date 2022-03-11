@@ -1,0 +1,87 @@
+and: and
+invalidUser: <:Per:833078041084166164> | **Oops**, unfortunaly i can't find any user referring to `{reference}`... We apologize for the inconvenience. *(maybe he/she can even be in a Dream World ¯\_(ツ)_/¯)*
+lunyMissingPermissionsToPunish: I don't have permission to punish this user.
+userMissingPermissionsToPunish: You can't punish member with equal/greater roles than you.
+userMissingPermissions: <:sigh:885721398788632586> **|** To use this command you need the permission `{permissions}`, and unfortunaly (or fortunaly), you don't have this permission...
+lunyMissingPermissions: <:cry:902169710949445643> **|** I don't have permission to execute this command, i need the permission `{permissions}`.
+requestedBy: Requested by
+successfullyPunished: "{author_mention}, the user {user_mention} (`{user_tag} - {user_id}`) was successfully punished{notifyDM}\n\n**Punishment ID:**\n```{id}```\n||Thanks for the preference! :partying_face:||"
+notNotifyDm: ", but unfortunaly was not possible to notify you by DM."
+levelUP: "<a:wow:900062924285046804> **| {user} Level up!**\n:partying_face: **|** You've leveled up your lunatic moderation level to `Moderator - Level {level}`!\n:face_with_hand_over_mouth: **|** Keep it up, e continue using me too, i'll be so happy to help you. *Maybe your name can be on the list of the 10 greater lunatic moderators!*"
+timeForSelectionEsgotated: Unfortunaly, your time to select the time expired.
+guildRequiredPremium: ":star: | Ops! Apparently you descovered an exclusive **premium function**, you weren't supposed to be here... Try taking a look at the link below to make this server a **premium server**! <:YaY:833060366014611456>\n\nhttps://canary.lunary.ml/"
+
+
+punishedBy: "Punished by {author_tag} - ID: {id} - Reason: {reason}"
+  
+reasonNotInformed:
+  defaultReason: Unknown reason.
+  confirmNormal: ❌ {author} **|** Oops... Apparently this server has the option of **required reason to punish** enabled, so access this **form** on the button below to be able to specify the reason in a more efficient way!
+  confirmWithReasonsSeteds: ❌ {author} **|** Oops... Apparently this server has the option of **required reason to punish** enabled, so access this **form** on the button below to be able to specify the reason, or select one of the pre-defined reason on my dashboard!
+  confirmWithPermission: ❌ {author} **|** Oops... Apparently this server has the option of **required reason to punish** enabled, so access this **form** on the button below to be able to specify the reason, or since like you and someone else **special** in this server, can just skip it with the "⏩ Skip" button! 🤩
+  confirmWithPermissionAndReasonsSeteds: ❌ {author} **|** Oops... Apparently this server has the option of **required reason to punish** enabled, so access this **form** on the button below to be able to specify the reason, or select one of the pre-defined reason on my dashboard, or since like you and someone else **special** in this server, can just skip it with the "⏩ Skip" button! 🤩
+    
+  components:
+    cancel: Cancel
+    addReason: Add reason
+    skip: Skip
+    selectReason: Select Reason
+  # Modal
+  modalReason:
+    title: "🌺 Punishment Request"
+    label: "📋 Reason to ban"
+    placeholder: "Your stay here is over!"
+   
+confirm: 
+  message: "😬 {author} | Are you absolutely sure you want to punish {user} for the reason selected!? Click the corresponding button below as your answer about this case... 🧐\n\n> _😲 Hey, come here... Do you know that you can pass these confirmation messages and punish users quick and easy? Use the button of Quick Punishment to activate this function, also visit our dashboard and configure totaly my function to you and your server on: {link}_"
+  buttons: 
+    cancel: Cancel
+    confirm: Confirm
+    quickpunishment: Quick Punishment
+
+# Message confirm punishment
+confirmPunishment:
+  title: "Confirm this punishment:"
+  description: Do you really want to punish the informed user?
+  reason: Inserted reason
+  duration: Duration
+  durationNotDetermined: Do not defined.
+
+# Modlogs message
+modlogs:
+  user: User
+  author: Author
+  reason: Reason
+  duration: Duration
+  durationNotDetermined: Do not defined.
+
+#Punishment message
+punishment_message: 
+  embed:
+    description: 'Looks like someone got punished for not following the rules, how ugly huh! <:sigh:901577954189004831>'
+    color: 16065893
+    fields:
+      - name: Author
+        value: |-
+          {author.username}**#{author.discriminator}**
+          (`{author.id}`)
+        inline: true
+      - name: Punished User
+        value: |-
+          {user.username}**#{user.discriminator}**
+          (`{user.id}`)
+        inline: true
+      - name: Reasob
+        value: "```{punishment.reason}```"
+        inline: false
+    title: '`{user.username}#{user.discriminator}`| {punishment.type}'
+    thumbnail:
+      url: '{author.icon}'
+    footer:
+      text: 'Duration: {punishment.duration}'
+
+booleans:
+  true: Sim
+  false: Não
+
+permanent: Permanent
