@@ -1,0 +1,25 @@
+help:
+  name: lunar info
+  description: Veja algumas informações sobre essa botzinho.
+title: Olá, eu sou a Lunar
+message: >-
+  <:L_yay:959094517112393750> • Olá {author}, eu sou a Lunary, mas você pode me chamar de Lunar, sou apenas um simples bot de moderação, eu tenho o sonho de deixar esta plataforma em um lugar cada vez melhor com meus comandos e funções.
+
+
+  <:L_thinking:959094491116101642> • Atualmente eu estou ajudando **{guildsCount} lugares maravilhosos**, com **{commandsCount} comandos**, e ao todo já **executei {executedCommandsCount} comandos** desde 15 de novembro de 2020, sempre tentando ajudar os lugares e pessoas maravilhosas que estão presenciando o meu trabalho.
+
+
+  <:ConfigPink:833093578402168832> • Fui criada em [<:JavaScript:790193762055618561> JavaScript](https://www.javascript.com) utilizando [<:NodeJs:777546855390642217> Node.js](https://nodejs.org/) com a livraria [<:Eris:971881743097405540> Eris](https://abal.moe/Eris/).
+
+
+  **<:linkes:974494896310325258> • Alguns de meus links:**
+
+  > <:bolinha:974495906055458856> [Me adicione ao seu servidor]({invite})
+
+  > <:bolinha:974495906055458856> [Meu servidor de suporte]({support})
+
+  > <:bolinha:974495906055458856> [Vote em mim]({vote})
+
+  > <:bolinha:974495906055458856> [Meu website]({website})
+createdBy: >-
+  • Fui criada e desenvolvida por: {owner_tag}

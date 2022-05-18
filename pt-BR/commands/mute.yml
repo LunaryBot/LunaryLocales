@@ -4,32 +4,46 @@ help:
   category: Moderação
   examples:
     - title: Pune um usuário usando a menção.
-      usage: "user user:{@user}"
+      usage: user user:{@user}
     - title: Pune um usuário usando o id.
-      usage: "user user:{userID}"
+      usage: user user:{userID}
     - title: Pune um usuário usando com um motivo.
-      usage: "user user:{@user} reason:{reason}"
+      usage: user user:{@user} reason:{reason}
     - title: Pune um usuário sem notificar via dm.
-      usage: "user user:{@user} notify-dm:{notify-dm}"
-texts:
-  punishmentType: Silenciado
-  selectTime: Selecione um tempo para o silenciamento.
-  selectTimeMessage: "👉 ⏱️ **|** Selecione o tempo que o usuário ficará mutado:"
-  default_dm_message: "{emoji} Você foi silenciado em **{guild_name}**\n**`[MOTIVO]`:** {reason}\n**`[DURAÇÃO]`:** {time}"
-  invalidTime: O tempo inserido para o mute é inválido.
-  duration: Duração
-  userMuted: O usuário já está mutado.
-  durationNotDetermined: Não determinado.
-  
-  # Times
-  60seconds: 1 Minuto
-  5minutes: 5 Minutos
-  10minutes: 10 Minutos
-  30minutes: 30 Minutos
-  1hour: 1 Hora
-  3hours: 3 Horas
-  5hours: 5 Horas
-  12hours: 12 Horas
-  24hours: 24 Horas
-  3days: 3 Dias
-  7days: 7 Dias
+      usage: user user:{@user} notify-dm:{notify-dm}
+punishmentType: Silenciado
+default_dm_message: |-
+  {emoji} Você foi silenciado em **{guild_name}**
+  **`[MOTIVO]`:** {reason}
+  **`[DURAÇÃO]`:** {time}
+invalidDuration: Tempo invalido!
+dateOfEndInThePast: Tempo não pode ser no passado!
+durationTooLong: O tempo máximo é de 28 dias!
+duration: Duração
+userMuted: O usuário já está mutado.
+durationNotDetermined: Não determinado.
+selectDurationPlaceholder: Selecione um tempo para o silenciamento.
+selectDurationMessage: '👉 ⏱️ **|** Selecione o tempo que o usuário ficará mutado:'
+60seconds: 1 Minuto
+5minutes: 5 Minutos
+10minutes: 10 Minutos
+30minutes: 30 Minutos
+1hour: 1 Hora
+3hours: 3 Horas
+5hours: 5 Horas
+12hours: 12 Horas
+24hours: 24 Horas
+3days: 3 Dias
+7days: 7 Dias
+custom: Customizado
+defaultDuration: Padrão
+customDurationModal:
+  title: "🌺 Punishment Request"
+  label: "⏰ Duração do silenciamento"
+  placeholder: 10 minutos, 1h30m, etc...
+
+userIsAdmin: <:L_sla:959094706472620042> **|** Eieiei, você sabia que não é possivel silenciar um administrador por limitações do Discord? Que coisa, não?
+
+autoComplete:
+  useDefaultDuration: >-
+    Usar tempo definido: {time}

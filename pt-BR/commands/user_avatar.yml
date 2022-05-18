@@ -4,7 +4,8 @@ help:
   category: Utilitários
   examples:
     - user:{@user}
-texts:
-  downloadImage: Baixar imagem
-  serverAvatar: Avatar de servidor
-  userAvatar: Avatar de usuário
+title: >-
+  :frame_photo: Avatar de {username}
+downloadImage: Baixar imagem
+guildAvatar: Avatar de servidor
+globalAvatar: Avatar de usuário

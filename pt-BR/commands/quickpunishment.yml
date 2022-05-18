@@ -1,6 +1,9 @@
 help:
   name: quickpunishment
-  description: Altera sua preferência de confirmar punições. Ao ativada, você não terá que confirmar as punições para que elas sejam executadas.
-texts:
-  enable: Modulo de punições rapidas ativado.
-  disable: Modulo de punições rapidas desativado.
+  description: >-
+    Altera sua preferência de confirmar punições. Ao ativada, você não terá que
+    confirmar as punições para que elas sejam executadas.
+enable: >-
+  :white_check_mark: {author} **|** O sistema de **punição rápida** foi **habilitado** para você com total êxito (pelo menos, eu espero... <:L_hehe:959094574343655454>), agora não precisará de confirmações para futuras punições!
+disable: >-
+  :white_check_mark: {author} **|** O sistema de **punição rápida** foi **desabilitado** para você com total êxito, talvez não tenha gostado muito deste sistema ou puniu algum usuário inocente acidentalmente, hihi... <:L_hehe:959094574343655454>

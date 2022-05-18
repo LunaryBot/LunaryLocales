@@ -4,13 +4,22 @@ help:
   category: Utilitários
   examples:
     - user:{@user}
-texts:
-  userTagDiscord: Tag do Discord
-  userIdDiscord: ID do Discord
-  userCreatedTimestamp: Conta criada em
-  memberJoinedTimestamp: Entrou no servidor em
-  memberPremiumSinceTimestamp: Impulsionando o servidor desde
-  memberRoles: Cargos ({size})
-  memberPermissions: Permissões {rank_permissions}
-  rank_adminstrator: Administrador
-  rank_owner: Dono
+userTagDiscord: Tag do Discord
+userIdDiscord: ID do Discord
+userCreatedTimestamp: Conta criada em
+memberJoinedTimestamp: Entrou no servidor em
+memberPremiumSinceTimestamp: Impulsionando o servidor desde
+memberRoles: Cargos ({size})
+memberPermissions: Permissões {rankPermissions}
+rankAdminstrator: Administrador
+rankOwner: Dono
+userInformation: Informações do usuário
+memberInformation: Informações do membro
+memberTimeoutedTimestamp: Castigado até
+memberNotTimeouted: O membro não está castigado, acho que isso é bom <:cookiee:885324662551232523>
+userAvatar: Avatar do usuário
+memberAvatar: Avatar de servidor
+memberPermissionsButton: Permissões do membro
+memberNotHasRoles: 🤷‍♀️ Esse membro não possui cargos...
+memberNotHasPermissions: 🤷‍♀️ Esse membro não possui permissões...
+andMoreRoles: e mais {size} cargos...

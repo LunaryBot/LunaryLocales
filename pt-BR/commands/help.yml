@@ -2,17 +2,27 @@ help:
   name: help
   description: Meu comando de ajuda.
   category: Luny
-texts:
-  title: Lunary ajuda
-  description: "Olá {author}, eu sou a Lunar, sou um bot com um grande sonho,\nMeu foco principal é manter seu servidor organizado, ajudando na moderação e administração. Este é meu painel de ajuda, aqui você poderá descobrir no que eu posso ajudar a você e o servidor."
-  links:
-    commands: Minha lista de comandos
-    support: Precisando de ajuda? Pergunte no meu servidor de suporte!
-    vote: Que tal votar em mim para me ajudar a  chegar em outras pessoas?
-    add: Que tal me adicionar em seu servidor?
-    dashboard: Me configure pela minha dashboard
-  created_by: "Fui criada e desenvolvida por:"
-  buttons:
-    invite_me: Me adicione!
-    support: Meu servidor.
-    website: Meu website.
+title: >-
+  {username} • Ajuda
+description: >-
+  <:L_yay:959094517112393750> **|** Olá {author}, eu sou a Lunar, sou um bot com um grande sonho,
+
+  Para ver uma lista dos comandos disponíveis no meu website [clicando aqui](https://lunary.space/commands).
+  
+  Meu foco principal é manter seu servidor organizado, ajudando na moderação e
+  administração. Este é meu painel de ajuda, aqui você poderá descobrir no que
+  eu posso ajudar a você e o servidor.
+links:
+  commands: >-
+    :clipboard: Minha lista de comandos
+  support: <:L_thinking:959094491116101642> Precisando de ajuda? Pergunte no meu servidor de suporte!
+  vote: >-
+    :love_letter: Que tal votar em mim para me ajudar a  chegar em outras pessoas?
+  invite: >-
+    :envelope_with_arrow: Que tal me adicionar em seu servidor?
+  dashboard: >-
+    :computer: Me configure pela minha dashboard
+buttons:
+  inviteMe: Me adicione!
+  support: Meu servidor.
+  website: Meu website.

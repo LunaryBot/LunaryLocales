@@ -1,25 +1,27 @@
 and: e
 invalidUser: <:Per:833078041084166164> | **Oops**, infelizmente eu não consegui achar um usuário referente à `{reference}`... Pedimos desculpas pelo inconveniente. *(talvez ele possa até estar no mundo da lua... ¯\_(ツ)_/¯)*
-lunyMissingPermissionsToPunish: Eu não tenho permissão para punir esse usuário.
-userMissingPermissionsToPunish: Você não pode punir um membro com funções iguais/superiores a sua.
+lunyMissingPermissionsToPunish: <:nonn:798271889671192697> {author} **|** Ixi... Eu não consigo punir este usuário, ele é mais importante que eu aqui! <:cry:902169710949445643>
+userMissingPermissionsToPunish: <:nonn:798271889671192697> {author} **|** Oops... Aparentemente este usuário tem um cargo um pouco mais acima que o seu, assim não poderá puni-lo, espertinho(a). <:sigh:885721398788632586>
 userMissingPermissions: <:sigh:885721398788632586> **|** Para utilizar esse comando você precisa da permissão `{permissions}`, e infelizmente (ou felizmente), você não possui essa permissão...
 lunyMissingPermissions: <:cry:902169710949445643> **|** Eu não tenho permissão para executar esse comando, eu preciso da permissão `{permissions}`.
 requestedBy: Requisitado por
-successfullyPunished: "{author_mention}, o usuário {user_mention} (`{user_tag} - {user_id}`) foi punido com sucesso{notifyDM}\n\n**ID da Punição:**\n```{id}```\n||Obrigado pela preferência! :partying_face:||"
+sentFrom: Enviado de
+successfullyPunished: ":tada: ─ {author_mention}, o usuário {user_mention} (`{user_tag} - {user_id}`) foi punido com sucesso{notifyDM}\n\n**ID da Punição:**\n```{id}```\n||Obrigado pela preferência! :partying_face:||"
 notNotifyDm: ", mas infelizmente não foi possível notifica-lo via DM."
 levelUP: "<a:wow:900062924285046804> **| {user} Level up!**\n:partying_face: **|** Você upou seu nível de moderação lunático para `Moderador - Nível {level}`!\n:face_with_hand_over_mouth: **|** Continue assim, e também continue me utilizando, irei ficar muito feliz em ajudar. *Quem sabe seu nome pode ficar marcado nos 10 maiores moderadores lunáticos!*"
 timeForSelectionEsgotated: Infelizmente, o tempo para seleção de tempo esgotou.
 guildRequiredPremium: ":star: | Ops! Pelo visto você descobriu uma **função premium** exclusiva, não era para você estar aqui... Tente dar uma olhada no link abaixo para tornar este servidor em um **servidor premium**! <:YaY:833060366014611456>\n\nhttps://canary.lunary.ml/"
 
 
-punishedBy: "Punido por {author_tag} - ID: {id} - Motivo: {reason}"
+punishedBy: "Punido por {author_tag} - Motivo: {reason}"
   
 reasonNotInformed:
   defaultReason: Motivo não informado.
-  confirmNormal: ❌ {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este **formulário** no botão abaixo para poder especificar o motivo de uma forma mais eficiente!
-  confirmWithReasonsSeteds: ❌ {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este **formulário** no botão abaixo para poder especificar o motivo, ou selecione um dos motivos pré-definidos na minha dashboard!
-  confirmWithPermission: ❌ {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este formulário no botão abaixo para poder especificar o motivo, ou já que como você e alguém mais **especial** neste servidor, pode apenas pular isto com o botão de "⏩ Pular"! 🤩
-  confirmWithPermissionAndReasonsSeteds: ❌ {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este formulário no botão abaixo para poder especificar o motivo, ou utilize os motivos pré-definidos deste servidor, e já que você e alguém **especial** neste servidor, pode apenas pular isto com o botão de "⏩ Pular"! 🤩
+  suggestToAddAReason: "<:NicoNicoPeek:885714683414339589> {author} **|** Você não gostaria de informar um motivo? Não se preocupe, se caso não quiser, você pode pular essa etapa."
+  confirmNormal: <:nonn:798271889671192697> {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este **formulário** no botão abaixo para poder especificar o motivo de uma forma mais eficiente!
+  confirmWithReasonsSeteds: <:nonn:798271889671192697> {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este **formulário** no botão abaixo para poder especificar o motivo, ou selecione um dos motivos pré-definidos deste servidor!
+  confirmWithPermission: <:nonn:798271889671192697> {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este formulário no botão abaixo para poder especificar o motivo, ou já que como você e alguém mais **especial** neste servidor, pode apenas pular isto com o botão de "Ignorar"! 🤩
+  confirmWithPermissionAndReasonsSeteds: <:nonn:798271889671192697> {author} **|** Oops... Aparentemente este servidor está com a opção de **motivo obrigatório para punições** ativado, então acesse este formulário no botão abaixo para poder especificar o motivo, ou utilize os motivos pré-definidos deste servidor, e já que você e alguém **especial** neste servidor, pode apenas pular isto com o botão de "Ignorar"! 🤩
     
   components:
     cancel: Cancelar

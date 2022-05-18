@@ -4,14 +4,19 @@ help:
   category: Moderação
   examples:
     - title: Veja as informações de um banimento pelo id do usuário.
-      usage: "user:{user-id}"
+      usage: user:{user-id}
     - title: Veja as informações de um banimento pela tag do usuário.
-      usage: "user:{user-tag}"
-texts:
-  userNotBanned: Não encontrei nenhum usuário referente a `{user}` baniddo no servidor.
-  embed:
-    title: Informações do banimento
-    userBanned: "Usuário banido:"
-    reason: Motivo inserido
-  removeBan: ":white_check_mark: ─ **Sucesso! |**{author_mention}, o usuário `{user_tag}` (`{user_id}`) foi desbanido do servidor com êxito! Espero que ele não faça mais besteiras. <:sigh:885721398788632586>"
-  reasonNotInformed: Motivo não informado.
+      usage: user:{user-tag}
+userNotBanned: Não encontrei nenhum usuário referente a `{user}` baniddo no servidor.
+embed:
+  title: Informações do banimento
+  userBanned: 'Usuário banido:'
+  reason: Motivo inserido
+unban: Unban
+removeBan: >-
+  :white_check_mark: ─ **Sucesso! |**{author_mention}, o usuário `{user_tag}`
+  (`{user_id}`) foi desbanido do servidor com êxito! Espero que ele não faça
+  mais besteiras. <:sigh:885721398788632586>
+reasonNotInformed: Motivo não informado.
+selectUserMessage: >-
+  <:Per:833078041084166164> | Achei alguns usuários referente à sua busca banidos no servidor <:sigh:885721398788632586>
