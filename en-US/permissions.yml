@@ -1,0 +1,50 @@
+#Lunar Permissions
+LUNAR_BAN_MEMBERS: Ban Members(Lunar)
+LUNAR_KICK_MEMBERS: Kick Members(Lunar)
+LUNAR_MUTE_MEMBERS: Mute Members(Lunar)
+LUNAR_ADV_MEMBERS: Warn Members(Lunar)
+LUNAR_VIEW_HISTORY: View Moderation History(Lunar)
+LUNAR_MANAGE_HISTORY: Manage Moderation History(Lunar)
+
+# Discord Permissions 
+CREATE_INSTANT_INVITE: Create an invite
+KICK_MEMBERS: Kick Members
+BAN_MEMBERS: Ban Members
+ADMINISTRATOR: Administrator
+MANAGE_CHANNELS: Manage Channels
+MANAGE_GUILD: Manage Server
+ADD_REACTIONS: Add Reactions
+VIEW_AUDIT_LOG: View Audit Log
+PRIORITY_SPEAKER: Priority Voice
+STREAM: Video
+VIEW_CHANNEL: View Channel
+SEND_MESSAGES: Send Messages
+SEND_TTS_MESSAGES: Send Voice Messages
+MANAGE_MESSAGES: Manage Messages
+EMBED_LINKS: Embed Links
+ATTACH_FILES: Attach Files
+READ_MESSAGE_HISTORY: View Messages History
+MENTION_EVERYONE: Mention Everyone
+USE_EXTERNAL_EMOJIS: Use External Emojis
+VIEW_GUILD_INSIGHTS: View Guild Insights
+CONNECT: Connect
+SPEAK: Speak
+MUTE_MEMBERS: Mute Members
+DEAFEN_MEMBERS: Deafen Members
+MOVE_MEMBERS: Move Members
+USE_VAD: Use Voice Detection
+CHANGE_NICKNAME: Change Nickname
+MANAGE_NICKNAMES: Manage Nicknames
+MANAGE_ROLES: Manage Roles
+MANAGE_WEBHOOKS: Manage Webwooks
+MANAGE_EMOJIS_AND_STICKERS: Manage Emojis and Stickes
+USE_APPLICATION_COMMANDS: Use Application Commands
+REQUEST_TO_SPEAK: Request to Speak
+MANAGE_EVENTS: Manage Events
+MANAGE_THREADS: Manage Threads
+CREATE_PUBLIC_THREADS: Create Public Threads
+CREATE_PRIVATE_THREADS: Create Private Threads
+USE_EXTERNAL_STICKERS: Use External Stickes
+SEND_MESSAGES_IN_THREADS: Send Messages in Threads
+START_EMBEDDED_ACTIVITIES: Start Embedded Activities
+MODERATE_MEMBERS: Moderate Members
