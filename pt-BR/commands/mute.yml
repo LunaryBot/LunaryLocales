@@ -12,7 +12,7 @@ help:
     - title: Pune um usuário sem notificar via dm.
       usage: user user:{@user} notify-dm:{notify-dm}
 punishmentType: Silenciado
-default_dm_message: |-
+defaultDmMessage: |-
   {emoji} Você foi silenciado em **{guild_name}**
   **`[MOTIVO]`:** {reason}
   **`[DURAÇÃO]`:** {time}
@@ -24,6 +24,7 @@ userMuted: O usuário já está mutado.
 durationNotDetermined: Não determinado.
 selectDurationPlaceholder: Selecione um tempo para o silenciamento.
 selectDurationMessage: '👉 ⏱️ **|** Selecione o tempo que o usuário ficará mutado:'
+useDefaultDurationForReason: Usar o tempo padrão para o motivo.
 60seconds: 1 Minuto
 5minutes: 5 Minutos
 10minutes: 10 Minutos

@@ -12,3 +12,6 @@ reason: Motivo
 unkownUser: Desconhecido
 punishedBy: Punido por
 title: Advertências de {user}
+author: Autor
+hasAdvs: >-
+  {user} tem {size} advertências

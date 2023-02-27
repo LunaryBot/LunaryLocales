@@ -12,10 +12,10 @@ help:
     - title: Pune um usuário sem notificar via dm.
       usage: user user:{@user} notify-dm:{notify-dm}
 punishmentType: Banido
-default_dm_message: |-
-  {emoji} Você foi banido de **{guild_name}**
+defaultDmMessage: |-
+  <:Hammer:842549266480234516> Você foi banido de **{guild_name}**
   **`[MOTIVO]`:** {reason}
 
-delete_messages: 
+deleteMessages: 
   1day: Deletar historico de mensagens nas ultimas 24 horas
   7days: Deletar historico de mensagens nas ultimas 7 dias
