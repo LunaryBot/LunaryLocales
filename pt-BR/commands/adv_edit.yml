@@ -12,5 +12,5 @@ warningNotFound: >-
 punishedBy: Advertido por
 reason: Motivo
 unkownUser: Desconhecido
-: O motivo deve conter no máximo `400` caracteres.
+veryBigReason: O motivo deve conter no máximo `400` caracteres.
 warningEdited: ':pen_ballpoint: | {author}, a advertência de id `{id}` foi editado com êxito!'
